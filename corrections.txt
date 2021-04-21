@@ -1,0 +1,14 @@
+Check the locations of kafka
+
+sudo bin/zookeeper-server-start.sh config/zookeeper.properties
+
+
+run different codes for running brokers...
+sudo bin/kafka-server-start.sh config/server.properties
+sudo bin/kafka-server-start.sh config/server-1.properties
+sudo bin/kafka-server-start.sh config/server-2.properties
+
+change dependencies like pyspark and kafka to different versions..asyn keyword added in python3.7 may cause problems
+
+
+refer to afer_7_sem_requirements.txt
